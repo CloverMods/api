@@ -1,9 +1,8 @@
 const express = require('express');
-const MainController = require('../controllers/main');
-const ImageController = require('../controllers/image');
-const AnimeController = require('../controllers/anime');
-const ConvertController = require('../controllers/convert');
-
+const MainController = require('../controladores/main');
+const ImageController = require('../controladores/image');
+const AnimeController = require('../controladores/anime');
+const ConvertController = require('../controladores/convert');
 const router = express.Router();
 
 router.get('/', MainController.home);
