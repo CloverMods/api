@@ -15,7 +15,7 @@ app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(favicon(path.join(__dirname, 'image', 'dclogo.png')));
+app.use(favicon(path.join(__dirname, 'imagem', 'dclogo.png')));
 app.use(cookieParser());
 
 app.use('/', indexRouter);
