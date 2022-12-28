@@ -1,8 +1,7 @@
 class MainController {
   home({ params: {} }, req) {
     var obj = {
-      date: new Date(),
-      coder: 'trevo de cinco folhas',
+      youtube: 'https://youtube.com/@clovermods',
       message: 'fale com o clover mods para ter acesso'
     };
     req.send(obj);
