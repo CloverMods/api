@@ -24,7 +24,7 @@ app.all('*', (req, res) => {
   res.status(404).send({
     code: 404,
     error: {
-      message: 'isso nao existe man'
+      message: 'halaman yang anda minta tidak ada dalam server!'
     }
   }); 
 }); 
